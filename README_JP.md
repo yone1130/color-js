@@ -4,7 +4,7 @@
 
 ## Overview
 
-**Color.js** は、TypeScript と JavaScript 用のカラーを扱うライブラリです。
+**Color.js** は、TypeScript / JavaScript 用のカラーを扱うライブラリです。
 
 ## Usage
 
