@@ -139,7 +139,7 @@ export class Color {
      * Convert to HEX string
      * @param [includePrefix=true] Should add prefix `#`
      */
-    toHex(includePrefix = true): string | null {
+    toHex(includePrefix = true): string {
         return includePrefix ? `#${this.hexString}` : this.hexString;
     }
 
