@@ -32,13 +32,15 @@ function main() {
     /* from 4 HEX (RGBA) - prefix `#` is optional */
     const hexColor4 = Color.hex("eee8");
 
+    /* from direct HEX number (RGBA) */
+    const rawColor = new Color(0xd1c2b3a4);
 
     /* Getters */
     console.log(rgbColor.toHex());       // => "#ff1f1fff"
     console.log(rgbColor.toHex(false));  // => "ff1f1fff"
     console.log(rgbColor.toRGBA());      // => [255, 31, 31, 255]
     console.log(rgbColor.toString());    // => "rgba(255, 31, 31, 1)"
-
+    console.log(rawColor.toHex());       // => "#d1c2b3a4"
 
     /* Propaties */
     console.log(hexColor8.red);        // 161
