@@ -4,7 +4,7 @@
 
 ## Overview
 
-**Color.js** is a TypeScript library for handling colors.
+**Color.js** is a TypeScript / JavaScript library for handling colors.
 
 ## Usage
 
