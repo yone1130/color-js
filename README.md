@@ -36,7 +36,7 @@ console.log(rgbColor.toHex());       // => "#ff1f1fff"
 console.log(rgbColor.toHex(false));  // => "ff1f1fff"
 console.log(rgbColor.toRGBA());      // => [255, 31, 31, 255]
 console.log(rgbColor.toString());    // => "rgba(255, 31, 31, 1)"
-console.log(rgbColor.toHex());    // => "#d1c2b3a4"
+console.log(rawColor.toHex());    // => "#d1c2b3a4"
 
 /* Propaties */
 console.log(hexColor8.red);        // 161
