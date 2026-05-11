@@ -55,7 +55,7 @@ console.log(hexColor8.hexString);  // "a1b2c380"
 ### 1. Install Packages
 
 ```bash
-npm install
+pnpm i
 ```
 
 ### 2. Build
@@ -63,7 +63,7 @@ npm install
 Compile to JavaScript.
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Emitted JavaScript files will be output to the `dist/` directory.
