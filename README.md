@@ -8,6 +8,20 @@
 
 ## Usage
 
+### 1. Install or Import
+
+Install as a package (TypeScript):
+```bash
+npm i yone1130/color-js
+```
+
+or direct importing from CDN (JavaScript):
+```js
+import { Color } from "https://cdn.yoneyo.com/scripts/color@0.0.0/dist/color.js";
+```
+
+### 2. Use
+
 Example code:
 ```ts
 /* from RGB */
