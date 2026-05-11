@@ -17,7 +17,7 @@ npm i yone1130/color-js
 
 またはCDNから直接インポート (JavaScript):
 ```js
-import { Color } from "https://cdn.yoneyo.com/scripts/color@0.0.0/dist/color.js";
+import { Color } from "https://cdn.yoneyo.com/scripts/color-js@0.0.0/dist/color.js";
 ```
 
 ### 2. 使う
