@@ -55,7 +55,7 @@ console.log(hexColor8.hexString);  // "a1b2c380"
 ### 1. パッケージをインストールする
 
 ```bash
-npm install
+pnpm i
 ```
 
 ### 2. ビルド
@@ -63,7 +63,7 @@ npm install
 JavaScript にコンパイルします。
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 コンパイルされたJavaScriptファイルが dist/ ディレクトリに出力されます。
