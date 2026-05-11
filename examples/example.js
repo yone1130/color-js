@@ -9,7 +9,7 @@
  *
  */
 
-import { Color } from "../src/color.ts";
+const { Color } = await importColor();
 
 main();
 
@@ -48,4 +48,12 @@ function main() {
     console.log(hexColor8.blue);       // 195
     console.log(hexColor8.alpha);      // 127
     console.log(hexColor8.hexString);  // "a1b2c380"
+}
+
+async function importColor() {
+    try {
+        return await import("../dist/color.js");
+    } catch (error) {
+        throw new Error(`Error: Failed to import the color.js package. Please build the project first.: ${error}`);
+    }
 }
