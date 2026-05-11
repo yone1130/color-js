@@ -2,11 +2,11 @@
 
 [Read in English >](./README.md)
 
-## Overview
+## 概要
 
 **Color.js** は、TypeScript / JavaScript 用のカラーを扱うライブラリです。
 
-## Usage
+## 利用方法
 
 サンプルコード:
 ```js
