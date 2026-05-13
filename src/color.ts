@@ -41,7 +41,7 @@ export class Color {
             throw new Error(`Invalid HEX string: ${value}`);
         }
 
-        const [redString, greenString, blueString, alphaString] = Color.#parseHexString(value);
+        const [redString, greenString, blueString, alphaString] = Color.#parseHexString(hexString);
 
         return Color.rgba(
             parseInt(redString, 16),
