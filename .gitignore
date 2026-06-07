@@ -1,5 +1,5 @@
-# NPM related
+# npm related
 node_modules/
 
-# Distribution
+# Distribution related
 dist/
