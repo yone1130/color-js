@@ -7,36 +7,18 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
-      version:
-        specifier: github:yone1130/version
-        version: https://codeload.github.com/yone1130/version/tar.gz/140cbe604401d7bdb344c51ed19949a8985c6b81
 
 packages:
-
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
 
   typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  version@https://codeload.github.com/yone1130/version/tar.gz/140cbe604401d7bdb344c51ed19949a8985c6b81:
-    resolution: {gitHosted: true, integrity: sha512-Y3q/wHwsWt5Ueh0TcPEms6aq831eOxAuef344Y0HQmIpLjVFyTum/vM4MZzvqod0hA6lfqarZlGrtn9DmcyV8A==, tarball: https://codeload.github.com/yone1130/version/tar.gz/140cbe604401d7bdb344c51ed19949a8985c6b81}
-    version: 1.1.0
-
 snapshots:
 
-  typescript@5.9.3: {}
-
   typescript@6.0.3: {}
-
-  version@https://codeload.github.com/yone1130/version/tar.gz/140cbe604401d7bdb344c51ed19949a8985c6b81:
-    dependencies:
-      typescript: 5.9.3
